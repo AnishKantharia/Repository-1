@@ -2,6 +2,7 @@ p {
   font-family: Times New Roman;
 }
 	
-p {
-	background-color: lightgray
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
 }
