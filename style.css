@@ -1,5 +1,130 @@
-  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+ h1{
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+  box-sizing: inherit;
+}
 
-  .w3-light-grey-w3-content{
-  	max-width:1600px;
-  }
+h4{
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  box-sizing: inherit;
+  margin: 10px 0;
+}
+
+ body{
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  box-sizing: inherit;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+    box-sizing: inherit;
+    padding: 12px 24px!important;
+    display: block;
+}
+
+.w3-padding-16 {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    border-bottom: 6px solid #ccc!important;
+    box-sizing: inherit;
+    display: block;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: inherit;
+}
+
+.w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
+	color: #fff!important;
+    background-color: #616161!important;
+    width: 33.33333%;
+    float: left;
+    box-sizing: inherit;
+    display: block;
+    text-align: center!important;
+}
+
+.w3-row-padding, .w3-row-padding>.w3-half, .w3-row-padding>.w3-third, .w3-row-padding>.w3-twothird, .w3-row-padding>.w3-threequarter, .w3-row-padding>.w3-quarter, .w3-row-padding>.w3-col {
+    padding: 0 8px;
+    box-sizing: inherit;
+    display: block;
+}
+
+.w3-white, .w3-hover-white:hover {
+	color: #000!important;
+    background-color: #fff!important;
+    box-sizing: inherit;
+    padding: 12px 24px!important;
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: inherit;
+    list-style-type: disc;
+}
+
+button {
+	webkit-writing-mode: horizontal-tb !important;
+	text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    padding: 1px 6px;
+}
+
+.fa-phone:before {
+    content: "\f095";
+    box-sizing: inherit;
+}
+
+.fa-map-marker:before {
+    content: "\f041";
+    box-sizing: inherit;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    box-sizing: inherit;
+}
+
+.w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after {
+	content: "";
+    display: table;
+    clear: both;
+    box-sizing: inherit;
+}
